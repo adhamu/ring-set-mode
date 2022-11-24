@@ -6,7 +6,8 @@
   "scripts": {
     "home": "ts-node -- ./src/index.ts --mode=home",
     "away": "ts-node -- ./src/index.ts --mode=away",
-    "lint": "eslint 'src/**/*.ts*' --ignore-path=.eslintignore --config=.eslintrc.json"
+    "unarmed": "ts-node -- ./src/index.ts --mode=unarmed",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@adhamu/zero": "^4.3.1",
