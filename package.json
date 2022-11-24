@@ -1,0 +1,22 @@
+{
+  "name": "ring",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "home": "ts-node -- ./src/index.ts --mode=home",
+    "away": "ts-node -- ./src/index.ts --mode=away",
+    "lint": "eslint 'src/**/*.ts*' --ignore-path=.eslintignore --config=.eslintrc.json"
+  },
+  "devDependencies": {
+    "@adhamu/zero": "^4.3.1",
+    "@types/node": "^18.11.9",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "arge": "^1.1.4",
+    "dotenv": "^16.0.3",
+    "ring-client-api": "^11.6.0",
+    "typescript": "^4.9.3"
+  }
+}
