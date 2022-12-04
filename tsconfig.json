@@ -1,5 +1,5 @@
 {
-  "extends": "./node_modules/@adhamu/zero/tsconfig/base.json",
+  "extends": "@adhamu/zero/tsconfig/base.json",
   "include": ["**/*.ts*"],
   "compilerOptions": {
     "outDir": "dist"
