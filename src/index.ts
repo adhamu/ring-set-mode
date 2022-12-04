@@ -15,12 +15,11 @@ const ringApi = new RingApi({
 })
 
 async function main() {
-  const locations = await ringApi.getLocations()
-  const location = locations[0]
-
   const { mode } = arge<Mode>(process.argv)
 
-  await location.setLocationMode(mode)
+  const locations = await ringApi.getLocations()
+
+  await Promise.all(locations.map(location => location.setLocationMode(mode)))
 
   process.exit()
 }
