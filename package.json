@@ -10,14 +10,14 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@adhamu/zero": "^4.3.1",
-    "@types/node": "^18.11.9",
+    "@adhamu/zero": "^6.1.0",
+    "@types/node": "^20.7.0",
     "ts-node": "^10.9.1"
   },
   "dependencies": {
-    "arge": "^1.2.0",
-    "dotenv": "^16.0.3",
-    "ring-client-api": "^11.6.0",
-    "typescript": "^4.9.3"
+    "arge": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "ring-client-api": "^12.0.1",
+    "typescript": "^5.2.2"
   }
 }
